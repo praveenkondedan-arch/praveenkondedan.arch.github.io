@@ -1,1 +1,143 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honda Unicorn - Service & Maintenance Tracker</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            background-color: #ffffff;
+            max-width: 650px;
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .header {
+            background-color: #dc2626;
+            color: #ffffff;
+            padding: 25px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            letter-spacing: 0.5px;
+        }
+        .header p {
+            margin: 5px 0 0;
+            font-size: 14px;
+            color: #fee2e2;
+        }
+        .content {
+            padding: 25px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            padding: 14px 12px;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        th {
+            color: #475569;
+            font-weight: 600;
+            width: 45%;
+        }
+        td {
+            color: #0f172a;
+            font-weight: 500;
+        }
+        tr:last-child td, tr:last-child th {
+            border-bottom: none;
+        }
+        .badge {
+            background-color: #fee2e2;
+            color: #991b1b;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        .footer {
+            background-color: #f8fafc;
+            text-align: center;
+            padding: 15px;
+            font-size: 12px;
+            color: #64748b;
+            border-top: 1px solid #e2e8f0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>🏍️ Honda Unicorn - Maintenance Dashboard</h1>
+        <p>Vehicle Health, Mileage & Service Schedule Tracker</p>
+    </div>
+
+    <div class="content">
+        <table>
+            <tr>
+                <th>Bike Model</th>
+                <td><strong>Honda Unicorn 160 (OBD2 Compliant)</strong></td>
+            </tr>
+            <tr>
+                <th>Date of Purchase</th>
+                <td>15 January 2025</td>
+            </tr>
+            <tr>
+                <th>Current Odometer Reading</th>
+                <td><span class="badge">8,500 km</span></td>
+            </tr>
+            <tr>
+                <th>Real-world Mileage</th>
+                <td>50 - 55 km/l (On E20 Blended Fuel)</td>
+            </tr>
+            <tr>
+                <th>1st Service Schedule</th>
+                <td>500 - 1,000 km OR 1 Month (Completed)</td>
+            </tr>
+            <tr>
+                <th>2nd Service Schedule</th>
+                <td>4,000 - 5,000 km OR 6 Months (Completed)</td>
+            </tr>
+            <tr>
+                <th>3rd & Free Services</th>
+                <td>9,000 - 10,000 km OR 12 Months (Upcoming)</td>
+            </tr>
+            <tr>
+                <th>Engine Oil Change Interval</th>
+                <td>Every 3,000 km / 3 Months (Next due at 9,000 km)</td>
+            </tr>
+            <tr>
+                <th>Tyre Size & Details</th>
+                <td>Front: 80/100-18 | Rear: 100/90-18 (Tubeless)</td>
+            </tr>
+            <tr>
+                <th>Tyre Replacement Schedule</th>
+                <td>Every 25,000 - 30,000 km (Check tread depth regularly)</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="footer">
+        Developed & Maintained by Praveen | Hosted on GitHub Pages
+    </div>
+</div>
+
+</body>
+</html>
